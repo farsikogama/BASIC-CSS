@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Dimensi & overflow</title>
+        <style>
+            .a{
+                background-color: blueviolet;
+                width: 50%;
+            }
+
+            .b{
+                background-color: burlywood;
+            }
+
+            .c{
+                background-color: coral;
+            }
+
+            .d{
+                background-color: darkgoldenrod;
+                width: 200px;
+                height: 50px;
+                overflow: visible;
+                display: inline-block;
+            }
+
+            .e{
+                background-color: darkgoldenrod;
+                width: 200px;
+                height: 170px;
+                overflow: auto;
+                display: inline-block;
+            }
+
+            .f{
+                background-color: darkgoldenrod;
+                width: 200px;
+                height: 50px;
+                overflow: hidden;
+            }
+
+            .g{
+                background-color: darkgoldenrod;
+                width: 200px;
+                height: 50px;
+                overflow: scroll;
+            }
+
+        </style>
+    </head>
+
+
+    <body>
+        <div class="a">
+        <h1>
+            Hello World!
+        </h1>
+        </div>
+
+
+        <div class="b">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+        </div>
+    
+
+        <div class="c">
+        <ol>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ol>
+        </div>
+
+
+        <div class="d">
+        <p>
+            VISIBLE... INLINE BLOCK Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum distinctio dignissimos dolorem aspernatur deserunt ducimus est impedit, nihil maiores esse maxime labore dicta, provident veniam temporibus vel incidunt repellat omnis.
+        </p>
+        </div>
+    
+        <div class="e">
+            <p>
+                AUTO... INLINE BLOCK Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum distinctio dignissimos dolorem aspernatur deserunt ducimus est impedit, nihil maiores esse maxime labore dicta, provident veniam temporibus vel incidunt repellat omnis.
+            </p>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="f">
+            <p>
+                HIDDEN... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum distinctio dignissimos dolorem aspernatur deserunt ducimus est impedit, nihil maiores esse maxime labore dicta, provident veniam temporibus vel incidunt repellat omnis.
+            </p>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="g">
+            <p>
+                SCROLL... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum distinctio dignissimos dolorem aspernatur deserunt ducimus est impedit, nihil maiores esse maxime labore dicta, provident veniam temporibus vel incidunt repellat omnis.
+            </p>
+        </div>
+    </body>
+
+</html>

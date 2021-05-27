@@ -1,0 +1,44 @@
+h1{
+    /* optional */
+    font-style: italic;
+    /* optional */
+    font-variant: normal;
+    /* optional */
+    font-weight: bold;
+    font-size: 100px;
+    /* optional */
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+}
+
+/* Font Short Hand */
+h2{ font: italic normal bold 100px/16px Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-decoration: underline;
+    color: yellowgreen;
+    letter-spacing: normal;
+    word-spacing: normal;
+    
+}
+
+/* background */
+/* body {
+    background-color: cadetblue;
+    background-image: url(../Gama\ hand\ Writing.png);
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: center;
+} */ 
+
+
+/* background short hand */
+body { background: lightgreen url(../../GamahandWriting.png) center no-repeat; }

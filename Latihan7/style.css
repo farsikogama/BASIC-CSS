@@ -1,0 +1,21 @@
+.satu{
+    width:300px;
+    height: 300px;
+    background-color: tomato;
+    margin : 20px auto 30px;
+    /* padding shorthand : atas kanan bawah kiri*/
+    padding: 10px 20px 30px 40px;
+    /* border: width style color */
+    /* style border : solid/dotted/dashed/double */
+    /* border juga menambahkan dimensi pada box */
+    border: 5px double black;
+    /* box sizing untuk mengatur agar dimensi tetap sesuai dengan width */
+    box-sizing: border-box;
+}
+
+.dua{
+    width: 300px;
+    margin : 20px auto 30px;
+    background-color: blue;
+    box-sizing: border-box;
+}

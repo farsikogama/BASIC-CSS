@@ -1,0 +1,29 @@
+
+
+/* semua elemen HTML yang diberi class atau id yang sudah diberi style di CSS, akan mengikuti style yang ada di CSS */
+
+
+/* Class dipanggil menggunakan .(nama class) */
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.cetaktebal{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+/* memberikan style khusus pada spesific elemen */
+
+p.cetaktebal{
+    font-weight: unset;
+}
+
+
+/* id dipanggil menggunakan # */
+#p2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: crimson;
+}

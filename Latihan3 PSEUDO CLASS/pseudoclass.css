@@ -1,0 +1,60 @@
+/* style ketika class diberi link */
+.hello :link{
+    color: yellowgreen;
+}
+
+
+/* style ketika krusor di arahkan ke class yang telah diberi link */
+.hello :hover{
+    color: brown;
+}
+
+
+/* style ketika class yang sudah diberi link di klik */
+.hello :active{
+    color: darkmagenta;
+}
+
+
+/* style ketika class yang sudah diberi link sudah pernah di klik atau dikunjungi */
+.hello :visited{
+    color: darkorange;
+}
+
+
+/* memberikan style untuk list urutan pertama */
+ul li:first-child a{ 
+    color: red;
+
+}
+
+
+
+/* memberikan style pada urutan paragraph tertentu */
+p:first-of-type{
+    color: teal;
+}
+
+p:last-of-type{
+    color: tomato;
+}
+
+
+
+/* memberikan style untuk list urutan terakhir */
+ul li:last-child a{
+    color: seagreen;
+
+}
+
+
+/* memberikan style pada list urutan genap pada class tertentu */
+ol.ole li:nth-child(even) a{
+    color: red;
+}
+
+
+/* memberikan style pada list urutan ke-3 pada class tertentu */
+ol.ola li:nth-child(odd) a{
+    color: springgreen;
+}
