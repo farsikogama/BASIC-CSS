@@ -1,0 +1,8 @@
+body {
+  /* background-image: url('batu.png'); */
+  /* background-size: cover; */
+  /* background-position: top right; */
+  /* background-repeat: no-repeat; */
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+  background-image: repeating-linear-gradient(red, yellow 30%, green 50%);
+}

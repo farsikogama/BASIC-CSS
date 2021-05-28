@@ -1,0 +1,17 @@
+.container {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: lightskyblue;
+}
+
+.card {
+  flex-basis: 35%;
+  height: 10vh;
+  background: tomato;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
