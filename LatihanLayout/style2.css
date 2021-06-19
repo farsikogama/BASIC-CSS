@@ -1,0 +1,159 @@
+body {
+  background: white;
+}
+
+p {
+  margin: 3px 7px;
+  padding: 0;
+  font: 12px/14px arial, sans-serif;
+}
+span {
+  font-weight: bold;
+}
+
+.container {
+  width: 320px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  background: darkgrey;
+  overflow: auto;
+}
+
+.card {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0.3rem;
+  background: white;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.row {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  margin: 10px;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+
+.imgPost img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.icon img {
+  margin: 0.2rem;
+  border-radius: 50%;
+}
+
+.icon img.last {
+  margin-left: auto;
+}
+
+/* card slider repsonsive */
+
+.container2 {
+  width: 800px;
+  margin: 100px auto;
+  padding: 10px;
+  overflow: auto;
+  background: red;
+}
+
+.wrapper {
+  width: 200%;
+  display: flex;
+  flex-wrap: wrap;
+  background: darkgrey;
+}
+
+@media screen and (max-width: 425px) {
+  .container2 {
+    width: 90%;
+    height: 400px;
+  }
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* Image slider */
+/* 3 */
+.slider {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 1 */
+.slides {
+  height: 200px;
+  display: flex;
+}
+
+/* 2 */
+.slide img {
+  height: 100%;
+}
+.slide {
+  transition: 1s;
+}
+
+/* 4 */
+.slides input {
+  display: none;
+}
+
+/* 7 */
+.navigationManual {
+  width: 300px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  background: chartreuse;
+}
+
+/* 5 */
+.manualBtn {
+  border: 1.5px solid white;
+  margin: 0.7rem;
+  padding: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* 6 */
+.manualBtn:hover {
+  transform: scale(1.2);
+  background: white;
+}
+
+/* 8 */
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -100%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -200%;
+}

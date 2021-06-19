@@ -1,6 +1,6 @@
+// pengulangan dalam baris
 var bintang = ''
 
-// pengulangan dalam baris
 for (i = 1; i <= 5; i++) {
   bintang += '*'
 }
